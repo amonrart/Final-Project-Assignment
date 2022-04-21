@@ -7,10 +7,10 @@
 ```
 อยากพัฒนาโปรแกรม คำนวณเกรดให้ดีขึ้นกว่าปัจจุบัน
 ```
-โครงสร้างของโปรแกรม (Class diagram) ของโปรแกรม
-```
+
+Class diagram
+```mermaid
 classDiagram
-```
   direction LR
   class form1{
   login()
@@ -47,8 +47,7 @@ classDiagram
   FileRecordmovie --|> form3
   form3 --|> form1
   logout --|> form1
-``` 
-
+  ```
 
 
 
