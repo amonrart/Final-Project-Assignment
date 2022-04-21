@@ -13,44 +13,36 @@ Class diagram
 classDiagram
   direction LR
   class form1{
-  login()
-  logout()
-  }
-  class logout{
-  close()
-  }
-  class form3{
-  -number
-  -nameMovie
-  -day
-  -month
+  -NameUser
+  -NameCourses
+  -Grade Score
   add()
   }
-  
-  class FileRecordmovie{
+  class GPA {
+  -NameCourses
+  -High score
+  add()
+  }
+  class FileGrade Score{
   -
   open()
   save()
   }
-  class openRecordmovie{
-  -location file
-  open file()
+  
   }
-  class saveRecordmovie{
+  class saveGrade Score{
   -location file
   save file()
   }
-  saveRecordmovie --|> FileRecordmovie
-  openRecordmovie --|> FileRecordmovie
- 
+  saveGrade Score --|> FileGrade Score
   
-  FileRecordmovie --|> form3
-  form3 --|> form1
-  logout --|> form1
+  GPA --|> form1
+  FileGrade Score --|> form1
   ```
 
+  ```
+**ผู้พัฒนาโปรแกรม***
+``` นางสาว อมรรัตน์ มาระเหว  ``` 
 
-
-
-
+ 
 
