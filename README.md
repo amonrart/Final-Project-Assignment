@@ -7,7 +7,6 @@
 ```
 อยากพัฒนาโปรแกรม คำนวณเกรดให้ดีขึ้นกว่าปัจจุบัน
 ```
-
 Class diagram
 ```mermaid
 classDiagram
@@ -17,7 +16,7 @@ classDiagram
   -NameCourses
   -Grade Score
   add()
-  
+  }
   class GPA {
   -NameCourses
   -High score
@@ -29,7 +28,6 @@ classDiagram
   save()
   }
   
-  }
   class saveGrade Score{
   -location file
   save file()
