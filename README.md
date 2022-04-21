@@ -10,6 +10,7 @@
 โครงสร้างของโปรแกรม (Class diagram) ของโปรแกรม
 ```
 classDiagram
+```
   direction LR
   class form1{
   login()
