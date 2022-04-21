@@ -46,7 +46,6 @@ classDiagram
   FileRecordmovie --|> form3
   form3 --|> form1
   logout --|> form1
-  
 ``` 
 
 
