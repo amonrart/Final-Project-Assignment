@@ -17,7 +17,7 @@ classDiagram
   -NameCourses
   -Grade Score
   add()
-  }
+  
   class GPA {
   -NameCourses
   -High score
